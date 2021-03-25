@@ -1,15 +1,50 @@
-header-e {
+body {
+	margin: 0px;
+	background-repeat: no-repeat;
+}
+
+#bg-img {
+	height: 700px;
+	background-image: url("keppy2.jpg");
+	z-index: -1;
+}
+
+#main-contain-e {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#header-e {
 width: 100%;
   height: 150px;
   padding: 10px;
   background-color: #ed1f24;
+  box-sizing: border-box;
 }
 
-pfp-e {
+#pfp-e {
   width: 100px;
   height: 100px;
-  margin: 0;
+  margin: 0 auto;
   border-radius: 60%;
   overflow: hidden;
-  
+}
+
+#pfp-img {
+	width: 100%;
+}
+
+#info-e {
+	height: 300px;
+	padding: 15px;
+	position: relative;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+#link-back-e {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
 }
