@@ -1,1 +1,50 @@
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 20%;
+	text-align: center;
+	border-radius: 15px;
+  }
+  
+  .card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+	padding: 10px 16px;
+  }
 
+  .link{
+	  margin-top: 20px;
+	  font-size: 15px;
+	  color: black;
+	  border-radius: 10px;
+  }
+
+  .heading{
+	  text-align: center;
+	  margin-top: 30px;
+  }
+
+  .myImage{
+	  margin-left: 105px;
+	  margin-top: 20px;
+	  border-radius: 15px;
+	  height: 205px;
+  }
+
+  .textarea{
+	  text-align: center;
+	  font-size: 15px;
+	  font-weight: normal;
+	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .background{
+	  background-color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 450px;
+	height: 450px;
+	margin-left: 410px;
+	padding-top: 5px;
+  }
