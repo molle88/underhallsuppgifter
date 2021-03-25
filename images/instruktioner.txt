@@ -1,1 +1,2 @@
-Lägg alla era bilder i denna mapp!
+Lägg alla dat19.html-bilder i denna mapp!
+Er egna sidas bilder kan finnas i er egna mapp.
