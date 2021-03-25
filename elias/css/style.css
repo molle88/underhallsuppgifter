@@ -1,0 +1,13 @@
+#me{
+	width: 200px;
+}
+.card {
+	text-align: center;
+}
+.center {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+  
