@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="css/style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=devices-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="js/script.js"> </script>
+</head>
+
+<body>
+
+	<div id="menu-bar" class="full-wodth">
+	<div class="topnav" id="myTopnav">
+  <a href="index.php" class="active">Hem</a>
+  <a href="portfolio.php?kategori=1">Portfolio</a>
+  <a href="Om mig.php">Om mig och kontakta mig</a>
+  <a href="LoginAdmin.php">Loggin</a>
+  <?php if(isset($_SESSION["uid"])){ ?>
+  <a href="?logout">Loggout</a>
+   <?php
+}
+?>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+	  </div>
+	</div>
+	<div id="header-section" class="full-wodth">
+	  <div class="header-element">
+		<img src="img/avatar.svg">
+		<h1> Karl Palmqvist </h1>
+		<i class="fas fa-star"></i>
+		<p>Studerar till datanom</p>
+	  </div>
+	</div>
+	
+	
+	<h2 class="center"> Programering Kompetens </h2>
+<div class="container">
+  <div class="row">
+    <div class="col-sm center">
+	<h3> Server programering </h3>
+      <p> Phpmyadmin 25h </p>
+	  <a href="portfolio.php?kategori=3"> Se på projecten </a>
+    </div>
+    <div class="col-sm center" >
+     <h3> Programering </h3>
+	 <p> Javascript 10h </p>
+	 <a href="portfolio.php?kategori=2"> Se på projecten </a>
+    </div>
+    <div class="col-sm center">
+      <h3> Web desgin </h3> 
+	  <p> HTML 20h </p> 
+	  <p> CSS 20h </p>
+	  <a href="portfolio.php?kategori=1"> Se på projecten </a>
+    </div>
+  </div>
+</div>
+
+	<div id="footer-upper-section"class="full-wodth"> 
+	 <div class="footer-inner">
+		<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+         <h3> KONTAKTUPPGIFTER </h3>
+		   <p> RusthållsVägen 35 <BR /> 
+				10620 Ekenäs <br /> 
+				0440374040 </p>
+			<p> Email: kalle.palmqvist02@gmail.com </p>
+    </div>
+    <div class="col-sm-4">
+     	<h3> SOICAL </h3>
+         <a href="http://www.facebook.com"> <i class="fotter-icon fab fa-facebook-square"></i> </a>
+	  <a href="http://www.twitter.com>" <i class="fotter-icon fab fa-twitter-square"></i> </a>
+	  <a href="http://linkedin.com/in/karl-palmqvist-b60671192"> <i class="fotter-icon fab fa-linkedin"></i> </a>
+    </div>
+    <div class="col-sm-4">
+      	<h3> AXXEL UTBILDNING AB </h3>
+      <p class="footer-paragraph"> karl Studerar til datanom <br /> 
+			<a href="http://www.axxell.fi">Besök Axxels hemisida </a> </p> 
+    </div>
+  </div>
+</div>
+	<div id="footer-lower-section"class="full-wodth"> </div>
+</div>
+</body>
+
+</html>
