@@ -1,13 +1,18 @@
-#me{
+#mee{
 	width: 200px;
+}
+#me{
+	width: 450px;
 }
 .card {
 	text-align: center;
 }
-.center {
+center {
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-  }
-  
+}
+#namelink:hover{
+	cursor: pointer;
+}
