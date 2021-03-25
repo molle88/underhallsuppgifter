@@ -50,3 +50,23 @@ line-height: 1.428571429;
 color: #999;
 }
 
+.button {
+  background-color: #ff9752;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.textarea {
+  color: 222;
+  font-size: 16px;
+  position: absolute;
+  left: 805px;
+}
+
