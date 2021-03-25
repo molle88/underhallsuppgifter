@@ -1,3 +1,4 @@
+
 body{padding-top:30px;}
 
 
@@ -68,5 +69,13 @@ color: #999;
   font-size: 16px;
   position: absolute;
   left: 805px;
+
 }
 
+#headerTitle{
+	line-height: 250px;
+	font-size: 100px;	
+	text-align: center;
+	color: black;
+}
+	
