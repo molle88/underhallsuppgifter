@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 page</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script defer src="js/script.js"></script>
+</head>
+<body>
+<h1>Hej jag heter veikka</h1>
+<h2>Jag bor i kyrkslätt och studerar på datanom i Axxell.</h2>
+
+<img src="Image/img1.jpg"</img>
+<!-- Content here -->
+
+</body>
+</html>
